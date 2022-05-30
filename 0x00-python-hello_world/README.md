@@ -1,1 +1,1 @@
-my first directory
+python hello world directory
