@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-def element_at(my_list, idx):
-    return (my_list[idx] if 0 <= idx < len(my_list) else None)
+print_list_integer = __import__('0-print_list_integer').print_list_integer
+
+my_list = [1, 2, 3, 4, 5]
+print_list_integer(my_list)
